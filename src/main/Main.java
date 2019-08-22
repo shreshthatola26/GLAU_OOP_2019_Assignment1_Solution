@@ -15,6 +15,8 @@ public class Main {
         Scanner t = new Scanner(System.in);
         time = t.nextDouble();
         speed = g * time;
-        distance = 0.5 * g * time * time
+        distance = 0.5 * g * time * time;
+        System.out.println("The speed of the object at " + time + "seconds after its release is" + speed + " and the distance the object has travelled  in the " + time + "seconds after the release  is" + distance);
+
     }
 }
