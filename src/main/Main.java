@@ -16,7 +16,7 @@ public class Main {
         time = t.nextDouble();
         speed = g * time;
         distance = 0.5 * g * time * time;
-        System.out.println("The speed of the object at " + time + "seconds after its release is" + speed + " and the distance the object has travelled  in the " + time + "seconds after the release  is" + distance);
-
+        System.out.println("The speed of the object at " + time + "seconds after its release is " + speed + " and the distance the object has travelled  in the " + time + "seconds after the release  is " + distance);
+        6
     }
 }
