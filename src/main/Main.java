@@ -14,6 +14,7 @@ public class Main {
         double g = 9.8;
         Scanner t = new Scanner(System.in);
         time = t.nextDouble();
-
+        speed = g * time;
+        distance = 0.5 * g * time * time
     }
 }
